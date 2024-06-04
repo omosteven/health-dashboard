@@ -1,0 +1,86 @@
+.lab-results {
+  padding: 20px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  border-radius: 16px;
+
+  opacity: 1;
+
+  height: 296px;
+
+  h3 {
+    text-align: left;
+
+    font: normal normal 800 24px/33px Manrope;
+
+    letter-spacing: 0px;
+
+    color: #072635;
+
+    opacity: 1;
+
+    margin-top: 0;
+
+    margin-bottom: 0;
+  }
+
+  &__list {
+    display: flex;
+
+    flex-direction: column;
+
+    // gap:5px;
+    height: 210px;
+
+    overflow: scroll;
+
+    li {
+      display: flex;
+
+      align-items: center;
+
+      justify-content: space-between;
+
+      padding: 11px 16px;
+
+      list-style: none;
+
+      &.active {
+        background: #f6f7f8 0% 0% no-repeat padding-box;
+
+        opacity: 1;
+      }
+
+      &:hover {
+        background: #f6f7f8 0% 0% no-repeat padding-box;
+
+        opacity: 1;
+      }
+
+      span {
+        font: normal normal normal 13px/18px Manrope;
+
+        letter-spacing: 0px;
+
+        color: #072635;
+
+        text-transform: capitalize;
+
+        opacity: 1;
+      }
+
+      .custom-icon {
+        width: fit-content;
+
+        cursor: pointer;
+
+        img {
+          width: 20px;
+
+          height: 20px;
+        }
+      }
+    }
+  }
+}

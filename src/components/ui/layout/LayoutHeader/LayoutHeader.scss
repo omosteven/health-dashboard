@@ -1,0 +1,155 @@
+@import "src/components/ui/__variables";
+
+.layout-header {
+  margin-left: 18px;
+
+  margin-right: 18px;
+
+  margin-top: 18px;
+
+  // height: 72px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  border-radius: 70px;
+
+  opacity: 1;
+
+  padding: 16px 32px;
+
+  display: grid;
+
+  align-items: center;
+
+  grid-template-columns: 1fr 1fr 1fr;
+
+  &__logo {
+    img {
+      width: 211px;
+
+      height: 48px;
+    }
+  }
+
+  &__actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 40px;
+
+    span {
+      cursor: pointer;
+      
+      img {
+        width: 16px;
+
+        height: 17px;
+      }
+
+      display: flex;
+
+      align-items: center;
+
+      gap: 8px;
+
+      font: normal normal bold 14px/19px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #072635;
+
+      &.action {
+        width: fit-content;
+
+        justify-content: none;
+
+        padding: 12px 16px;
+
+        background: #01f0d0 0% 0% no-repeat padding-box;
+
+        border-radius: 41px;
+
+        img {
+          width: 24px;
+
+          height: 17px;
+        }
+      }
+    }
+  }
+
+  &__box {
+    display: flex;
+
+    align-items: center;
+
+    margin-left: auto;
+
+    .profile-icon {
+      img {
+        width: 44px;
+
+        height: 44px;
+
+        margin-right: 8px;
+
+        cursor: pointer;
+      }
+    }
+
+    &__icons {
+      gap: 12px;
+
+      display: flex;
+
+      padding-left: 12px;
+
+      border-left: 1px solid #ededed;
+
+      margin-left: 12px;
+    }
+
+    .custom-icon {
+      img {
+        width: 16px;
+
+        height: 17px;
+
+        cursor: pointer;
+      }
+    }
+
+    h3 {
+      margin-top: 0;
+
+      margin-bottom: 0;
+
+      text-align: left;
+
+      font: normal normal bold 14px/19px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #072635;
+
+      opacity: 1;
+    }
+
+    p {
+      margin-top: 0;
+
+      margin-bottom: 0;
+
+      text-align: left;
+
+      font: normal normal normal 14px/19px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #707070;
+
+      opacity: 1;
+    }
+  }
+}

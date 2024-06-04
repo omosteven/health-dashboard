@@ -1,0 +1,57 @@
+.patients {
+  height: 100%;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  border-radius: 16px;
+
+  .skeleton-loader {
+    width: unset;
+  }
+
+  &__header {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 20px;
+
+    padding-bottom: 0;
+
+    h3 {
+      margin-top: 0;
+
+      margin-bottom: 0;
+
+      text-align: left;
+
+      font: normal normal 800 24px/33px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #072635;
+
+      opacity: 1;
+
+      font-size: 24px;
+    }
+
+    .custom-icon {
+      width: fit-content;
+    }
+  }
+
+  &__list {
+    margin-top: 20px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 960px;
+
+    overflow: scroll;
+  }
+}

@@ -1,0 +1,75 @@
+.patient {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  cursor: pointer;
+
+  padding: 20px;
+
+  &.active {
+    background: #d8fcf7 0% 0% no-repeat padding-box;
+
+    opacity: 1;
+  }
+
+  &:hover {
+    background: #d8fcf7 0% 0% no-repeat padding-box;
+
+    opacity: 0.5;
+  };
+
+  &__info {
+    .custom-icon {
+      width: fit-content;
+    }
+
+    h4 {
+      text-align: left;
+
+      font: normal normal bold 14px/19px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #072635;
+
+      opacity: 1;
+
+      margin-top: 0;
+
+      margin-bottom: 0;
+
+      font-size: 14px;
+    }
+
+    p {
+      margin-top: 0;
+
+      margin-bottom: 0;
+
+      text-align: left;
+
+      font: normal normal normal 14px/19px Manrope;
+
+      letter-spacing: 0px;
+
+      color: #707070;
+
+      opacity: 1;
+    }
+
+    img {
+      width: 48px;
+
+      height: 48px;
+    }
+
+    display: flex;
+
+    gap: 12px;
+
+    align-items: center;
+  }
+}

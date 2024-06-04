@@ -1,0 +1,36 @@
+.diagnostic-list {
+  height: 349px;
+
+  background: #ffffff 0% 0% no-repeat padding-box;
+
+  border-radius: 16px;
+
+  opacity: 1;
+
+  padding: 20px;
+
+  h3 {
+    text-align: left;
+
+    font: normal normal 800 24px/33px Manrope;
+
+    letter-spacing: 0px;
+
+    color: #072635;
+
+    opacity: 1;
+
+    margin-top: 0px;
+
+    margin-bottom: 0px;
+  }
+
+  &__table {
+    margin-top: 40px;
+
+    height: 260px;
+
+    overflow: scroll;
+    // display: none;
+  }
+}
